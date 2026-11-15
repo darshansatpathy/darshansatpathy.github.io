@@ -23,6 +23,12 @@ Every flagship case study links to runnable code that distils the same patterns.
 | Real-time transaction streaming | [realtime-transaction-streaming](https://github.com/darshansatpathy/realtime-transaction-streaming) |
 | Migration of 1,000+ integration interfaces | [integration-migration-factory](https://github.com/darshansatpathy/integration-migration-factory) |
 
+## Architecture and governance reference code
+
+A separate section on the page links ten more repositories on the delivery side of enterprise AI. They are not tied to a single case study.
+
+[azure-ai-landing-zone](https://github.com/darshansatpathy/azure-ai-landing-zone), [ai-platform-reference-architecture](https://github.com/darshansatpathy/ai-platform-reference-architecture), [ai-governance-evidence-pack](https://github.com/darshansatpathy/ai-governance-evidence-pack), [databricks-medallion-lakehouse](https://github.com/darshansatpathy/databricks-medallion-lakehouse), [claude-agent-reference](https://github.com/darshansatpathy/claude-agent-reference), [ai-design-review-kit](https://github.com/darshansatpathy/ai-design-review-kit), [ai-threat-model-as-code](https://github.com/darshansatpathy/ai-threat-model-as-code), [model-promotion-gates](https://github.com/darshansatpathy/model-promotion-gates), [data-contracts-registry](https://github.com/darshansatpathy/data-contracts-registry), [ai-finops-showback](https://github.com/darshansatpathy/ai-finops-showback).
+
 ## Contact
 
 Darshan Kumar Satpathy, AI & Data Solutions Architect, Bhubaneswar, India.

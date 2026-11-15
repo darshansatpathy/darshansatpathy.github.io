@@ -290,7 +290,7 @@ ol.flow li::marker{color:var(--cobalt);font-weight:600;font-size:.86rem}
   <div class="wrap">
     <a class="brand" href="#top">Darshan Satpathy</a>
     <div class="links">
-      <a href="#work">Flagship work</a><a href="#library">All 111 systems</a><a href="#career">Career</a><a href="#skills">Skills</a><a href="#speaking">Speaking</a><a href="#credentials">Credentials</a><a href="#contact">Contact</a>
+      <a href="#work">Flagship work</a><a href="#library">All 111 systems</a><a href="#reference">Reference code</a><a href="#career">Career</a><a href="#skills">Skills</a><a href="#speaking">Speaking</a><a href="#credentials">Credentials</a><a href="#contact">Contact</a>
     </div>
     <button type="button" class="btn" id="navMail">Copy email</button>
   </div>
@@ -345,6 +345,22 @@ ol.flow li::marker{color:var(--cobalt);font-weight:600;font-size:.86rem}
     </div>
     <div class="status"><span class="count" id="count"></span><button type="button" class="clear" id="clearAll" hidden>Clear filters</button></div>
     <div id="results"></div>
+  </div></section>
+
+  <section class="sec" id="reference"><div class="wrap">
+    <div class="sh"><div><h2>Architecture and governance reference code</h2><p>Ten open-source repositories on the delivery side of enterprise AI: landing zones, platform design, governance evidence, review, threat modelling, model promotion, data contracts and cost. They run on synthetic or public data, are tested in CI and state what they do not verify. They are reference implementations, not client systems.</p></div></div>
+    <ul class="pts" style="margin-top:0">
+        <li><a href="https://github.com/darshansatpathy/azure-ai-landing-zone" target="_blank" rel="noopener noreferrer">azure-ai-landing-zone</a>: Private, keyless Azure OpenAI in Terraform, with a policy-as-code checker that fails the build if a door is reopened.</li>
+        <li><a href="https://github.com/darshansatpathy/ai-platform-reference-architecture" target="_blank" rel="noopener noreferrer">ai-platform-reference-architecture</a>: A 27-component AI platform written as data; a fitness-function checker fails the build when the design contradicts itself.</li>
+        <li><a href="https://github.com/darshansatpathy/ai-governance-evidence-pack" target="_blank" rel="noopener noreferrer">ai-governance-evidence-pack</a>: 41 EU AI Act, NIST AI RMF and ISO/IEC 42001 controls mapped to hash-pinned evidence, with gaps stated openly.</li>
+        <li><a href="https://github.com/darshansatpathy/databricks-medallion-lakehouse" target="_blank" rel="noopener noreferrer">databricks-medallion-lakehouse</a>: Each table is a spec; Lakeflow SQL, Unity Catalog governance and a bundle are generated and linted. Not yet run on Databricks.</li>
+        <li><a href="https://github.com/darshansatpathy/claude-agent-reference" target="_blank" rel="noopener noreferrer">claude-agent-reference</a>: A production agent loop on the Claude API in about 2,000 readable lines, with hard budgets, approval-gated writes and an audit log.</li>
+        <li><a href="https://github.com/darshansatpathy/ai-design-review-kit" target="_blank" rel="noopener noreferrer">ai-design-review-kit</a>: An architecture review for AI systems as files: questions, evidence, accepted risks and a verdict that CI can enforce.</li>
+        <li><a href="https://github.com/darshansatpathy/ai-threat-model-as-code" target="_blank" rel="noopener noreferrer">ai-threat-model-as-code</a>: Threats derived from the data-flow graph and mapped to OWASP LLM Top 10 and MITRE ATLAS ids; ready, conditional or blocked.</li>
+        <li><a href="https://github.com/darshansatpathy/model-promotion-gates" target="_blank" rel="noopener noreferrer">model-promotion-gates</a>: 23 evidence-bound gates on model stage transitions, with approvals tied to the exact artefact digest and expiring waivers.</li>
+        <li><a href="https://github.com/darshansatpathy/data-contracts-registry" target="_blank" rel="noopener noreferrer">data-contracts-registry</a>: Data contracts as reviewed code; a change that would break a consumer fails the build.</li>
+        <li><a href="https://github.com/darshansatpathy/ai-finops-showback" target="_blank" rel="noopener noreferrer">ai-finops-showback</a>: AI spend by team and app from usage exports, shared costs allocated by explicit rule, totals that agree to the cent.</li>
+    </ul>
   </div></section>
 
   <section class="sec" id="career"><div class="wrap">
